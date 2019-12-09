@@ -1,0 +1,138 @@
+body {
+    background-image: url("img/wood.jpg");
+
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.heading {
+    width: 100%;
+    height: 970px;
+    background: url('img/growth.gif') center no-repeat;
+    /*image-source:https://pixabay.com/p-147591/?no_redirect*/
+    position: relative;
+    top: 25px;
+}
+
+#center {
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 130px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: skyblue;
+    text-shadow: 2px 2px 4px #000000;
+    /*background: linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1));*/
+    height: 75%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#infoSection {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#videos {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#alternative {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.set {
+    position: relative;
+    padding: 0px;
+}
+
+#overlay {
+    opacity: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 2em;
+    color: white;
+    background-color: rgba(83, 175, 237, 0.69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay:hover {
+    opacity: 1;
+}
+
+#right {
+    /*font-size:;*/
+    margin: center;
+    text-align: center;
+}
+
+#background {
+    background-color: white;
+}
+
+#footer-div {
+    text-align: center;
+    color: black;
+
+}
+
+
+
+#plastic {
+    text-align: center;
+}
+
+.lineUp {
+    font-size: 22px;
+}
+
+.firstImage {
+    font-size: 22px;
+}
+
+@media(max-width:520px) {
+    #center {
+        font-size: 55px;
+    }
+    #follow {
+        font-size: 20px;
+    }
+    .heading {
+        background-size: cover;
+    }
+}
+
+@media(max-width:1200px) {
+    .lineUp {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:765px) {
+    .lineUp {
+        font-size: 22px;
+    }
+}
